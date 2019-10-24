@@ -127,7 +127,7 @@ a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
     text-align: center;
     margin-top: -100px;
 }
-.swiper-pagination-bullet {
+#app-nav .swiper-pagination-bullet {
     display: block;
     width: 14px;
     height: 14px;
@@ -137,10 +137,10 @@ a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
     border: 1px solid #fff;
     cursor: pointer;
 }
-.swiper-pagination-bullet:not(:last-child) {
+#app-nav .swiper-pagination-bullet:not(:last-child) {
     margin-bottom: 8px;
 }
-.swiper-pagination-bullet-active {
+#app-nav .swiper-pagination-bullet-active {
     background: red;
 }
 </style>
